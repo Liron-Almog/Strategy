@@ -1,0 +1,11 @@
+﻿target_sources (${CMAKE_PROJECT_NAME} PRIVATE "main.cpp"
+                                                "Bird.cpp"
+                                                "Vertical.cpp"
+                                                "FlyBehavior.cpp"
+                                                "Slant.cpp"
+                                                "WhistleBehavior.cpp"
+                                                "Silence.cpp"
+                                                "Curled.cpp"
+                                                "Dror.cpp"
+                                                "Penguin.cpp"
+                                              )
