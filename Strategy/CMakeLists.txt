@@ -2,8 +2,6 @@ cmake_minimum_required (VERSION 3.20)
 
 project (Strategy)
 
-# New CMake versions map C++20 to /std:c++20 instead of c++latest, so <format>
-# and other unstable ABI features aren't supported. Use C++23 for such versions
 if (MSVC AND CMAKE_VERSION VERSION_GREATER_EQUAL 3.21)
     set(CMAKE_CXX_STANDARD 23)
 else ()
